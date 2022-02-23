@@ -3,7 +3,7 @@ import './assets/css/App.css';
 
 
 //importar componentes
-import MiPrimerComponent from './components/MiPrimerComponent';
+import MiPrimerComponent from './components/MiPrimerComponent/MiPrimerComponent';
 
 function HolaEdwin (nombre, edad){
   var presentacion=  (
