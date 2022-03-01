@@ -1,14 +1,11 @@
 import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
-
-
-//importar componentes
 import MiPrimerComponent from './components/MiPrimerComponent/MiPrimerComponent';
 
 function HolaEdwin (nombre, edad){
   var presentacion=  (
+    
     <div>
-
           <h2>Hola soy {nombre}</h2>
           <h3> tengo {edad} años</h3>
     </div>
@@ -18,17 +15,18 @@ function HolaEdwin (nombre, edad){
 }
 
 function App() {
- var nombre= "EDWIN MAY";
+ var nombre= "Edwin May";
  
 
   return (
-    <div className="App">
+    
+<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          HOLA BIENVENIDO A PRACTICAR CONMIGO.
+          En este programa usted podra insertar su Receta, Calorias y un Nombre.
         </p>
-        {HolaEdwin(nombre, 15)}
+        {HolaEdwin(nombre, 24)}
         
            <section className="componentes">
        
